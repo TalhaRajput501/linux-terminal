@@ -20,13 +20,13 @@ A complete guide to transform your terminal into a beautiful, feature-rich promp
 
 ---
 
-## 🌟 What is Starship?
+## What is Starship?
 
 Starship is a minimal, blazing-fast, and highly customizable prompt for any shell. It shows relevant information about your current directory, git status, programming languages, and much more.
 
 ---
 
-## ✨ Features
+## Features
 
 - 🎨 **Beautiful Nord color scheme** with modern aesthetics
 - 🔣 **Rich icon support** for files, folders, git, and programming languages
@@ -40,7 +40,7 @@ Starship is a minimal, blazing-fast, and highly customizable prompt for any shel
 
 ---
 
-## 📦 Prerequisites
+## Prerequisites
 
 - **Linux Mint** or **Ubuntu** (this guide is specifically for Debian-based distros)
 - **Bash shell** (default on Linux Mint)
@@ -49,7 +49,7 @@ Starship is a minimal, blazing-fast, and highly customizable prompt for any shel
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Follow these steps **in order** on your Linux Mint system:
 
@@ -85,7 +85,7 @@ mkdir -p ~/.config
 cp starship.toml ~/.config/starship.toml
 ```
 
-**Note:** Make sure you've cloned this repository first, or download the `starship.toml` file directly.
+**Note:** Make sure you've cloned this repository first, or download the `starship.toml` file directly. And you can also check `starship.sample.toml` starship file which has more icons and different color.
 
 ---
 
@@ -185,7 +185,7 @@ source ~/.bashrc
 
 ---
 
-## 🎨 Configuration
+## Configuration
 
 The included `starship.toml` file defines your prompt's appearance. Here's what it controls:
 
@@ -215,7 +215,7 @@ The prompt displays the following information (left to right):
 
 ---
 
-## 🔧 How Starship Works
+## How Starship Works
 
 Understanding Starship's structure helps you customize it:
 
@@ -271,7 +271,7 @@ format = '[ $symbol ($version) ]($style)'  # How to arrange the content
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Icons Show as Boxes (▯) or Question Marks (?)
 
@@ -346,7 +346,7 @@ grep starship ~/.bashrc
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### Change Colors
 
@@ -427,15 +427,6 @@ truncation_symbol = ".../"   # Change truncation indicator
 - **Performance**: Starship is extremely fast (written in Rust)
 - **Updates**: Run `curl -sS https://starship.rs/install.sh | sh` to update
 
----
-
-## 🤝 Contributing
-
-Feel free to:
-- Submit issues for bugs or questions
-- Create pull requests for improvements
-- Share your own `starship.toml` configurations
-- Suggest additional Nerd Fonts that work well
 
 ---
 
